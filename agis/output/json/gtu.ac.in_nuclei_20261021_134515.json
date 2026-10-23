@@ -1,0 +1,21 @@
+{
+    "tool": "AgisRecon2",
+    "target": "gtu.ac.in",
+    "module": "nuclei",
+    "timestamp": "2026-10-21T13:45:15.693793",
+    "results": [
+        "[\u001b[92mcookies-without-secure\u001b[0m] [\u001b[94mjavascript\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in [\u001b[96m\"AWSALBTG\"\u001b[0m]",
+        "[\u001b[92mcookies-without-httponly\u001b[0m] [\u001b[94mjavascript\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in [\u001b[96m\"AWSALBTGCORS\"\u001b[0m,\u001b[96m\"AWSALBTG\"\u001b[0m]",
+        "[\u001b[92mmx-fingerprint\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in [\u001b[96m\"10 aspmx3.googlemail.com.\"\u001b[0m,\u001b[96m\"15 mail.exmail.net4india.com.\"\u001b[0m,\u001b[96m\"5 alt1.aspmx.l.google.com.\"\u001b[0m,\u001b[96m\"5 alt2.aspmx.l.google.com.\"\u001b[0m,\u001b[96m\"1 aspmx.l.google.com.\"\u001b[0m,\u001b[96m\"10 aspmx2.googlemail.com.\"\u001b[0m]",
+        "[\u001b[92mspf-record-detect\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in [\u001b[96m\"v=spf1 include:_spf.google.com ~all\"\"\u001b[0m]",
+        "[\u001b[92mmx-service-detector\u001b[0m:\u001b[1;92mGoogle Apps\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in",
+        "[\u001b[92mtxt-fingerprint\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in [\u001b[96m\"\"v=spf1 include:_spf.google.com ~all\"\"\u001b[0m]",
+        "[\u001b[92mdmarc-detect\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] _dmarc.gtu.ac.in [\u001b[96m\"\"v=DMARC1; p=none; rua=mailto:admin@gtu.ac.in\"\"\u001b[0m]",
+        "[\u001b[92mnameserver-fingerprint\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in [\u001b[96m\"ns-1775.awsdns-29.co.uk.\"\u001b[0m,\u001b[96m\"ns-602.awsdns-11.net.\"\u001b[0m,\u001b[96m\"ns-355.awsdns-44.com.\"\u001b[0m,\u001b[96m\"ns-1501.awsdns-59.org.\"\u001b[0m]",
+        "[\u001b[92mdkim-record-detect\u001b[0m] [\u001b[94mdns\u001b[0m] [\u001b[34minfo\u001b[0m] google._domainkey.gtu.ac.in [\u001b[96m\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0+40aztUkACyPzHXXR7fvwFn8IT8+/5QeO403vmOQ7pFlAegkGFdUtVNxKgratuUA6lLJ/kGb6Wr4ek6TbCjnbXsltgFnojQEDXCE0B03LtPX7ytgde72PxbU0WYIMhTrR\"\"\u001b[0m]",
+        "[\u001b[92mtls-version\u001b[0m] [\u001b[94mssl\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in:443 [\u001b[96m\"tls11\"\u001b[0m]",
+        "[\u001b[92mweak-cipher-suites\u001b[0m:\u001b[1;92mtls-1.1\u001b[0m] [\u001b[94mssl\u001b[0m] [\u001b[32mlow\u001b[0m] gtu.ac.in:443 [\u001b[96m\"[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]\"\u001b[0m]",
+        "[\u001b[92mtls-version\u001b[0m] [\u001b[94mssl\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in:443 [\u001b[96m\"tls12\"\u001b[0m]",
+        "[\u001b[92mdeprecated-tls\u001b[0m:\u001b[1;92mtls_1.0\u001b[0m] [\u001b[94mssl\u001b[0m] [\u001b[34minfo\u001b[0m] gtu.ac.in:443 [\u001b[96m\"tls10\"\u001b[0m]"
+    ]
+}

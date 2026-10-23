@@ -1,0 +1,19 @@
+{
+    "tool": "AgisRecon2",
+    "target": "gtu.ac.in",
+    "module": "nmap",
+    "timestamp": "2026-10-21T13:39:38.245415",
+    "results": [
+        "Starting Nmap 7.991 ( https://nmap.org ) at 2026-10-21 13:34 +0530",
+        "Stats: 0:05:07 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan",
+        "Connect Scan Timing: About 67.71% done; ETC: 13:41 (0:02:26 remaining)",
+        "Nmap scan report for gtu.ac.in (43.205.182.172)",
+        "Host is up (0.058s latency).",
+        "Other addresses for gtu.ac.in (not scanned): 64:ff9b::2bcd:b6ac 64:ff9b::d7f:c7b 13.127.12.123",
+        "rDNS record for 43.205.182.172: ec2-43-205-182-172.ap-south-1.compute.amazonaws.com",
+        "All 1000 scanned ports on gtu.ac.in (43.205.182.172) are in ignored states.",
+        "Not shown: 1000 filtered tcp ports (no-response)",
+        "Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .",
+        "Nmap done: 1 IP address (1 host up) scanned in 317.15 seconds"
+    ]
+}

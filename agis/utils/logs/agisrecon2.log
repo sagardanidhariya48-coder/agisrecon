@@ -1,0 +1,4 @@
+2026-09-10 12:06:32 | INFO     | AgisRecon2 | Recon started
+2026-09-10 12:06:32 | WARNING  | AgisRecon2 | This is a warning
+2026-09-10 12:06:32 | ERROR    | AgisRecon2 | Example error
+2026-09-10 12:06:32 | CRITICAL | AgisRecon2 | Critical issue
